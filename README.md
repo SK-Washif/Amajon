@@ -1,4 +1,4 @@
-Live site of the Project: https://playful-chimera-b82015.netlify.app
+Live site of the Project: https://sensational-pasca-6eab91.netlify.app/
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
