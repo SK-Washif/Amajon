@@ -3,7 +3,7 @@ import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDeleteLeft } from '@fortawesome/free-solid-svg-icons';
 
-const Cart = ({cart, handleClearCart}) => {
+const Cart = ({cart, handleClearCart, children}) => {
   //const {cart} = props;
 
   console.log(cart);
@@ -39,6 +39,7 @@ const Cart = ({cart, handleClearCart}) => {
         <span>Clear Cart</span>
         <FontAwesomeIcon  icon={faDeleteLeft}></FontAwesomeIcon> 
       </button>
+      {children}
     </div>
   );
 };
